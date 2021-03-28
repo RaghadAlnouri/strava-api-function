@@ -12,7 +12,7 @@ from google.cloud import secretmanager  # see requirements.txt
 # GCP related variables
 # Requirements: Enable APIs & Create resources
 # --------------------------------------
-GCP_PROJECT_ID  = 'madmax-strava'   # GCP project id of the GCP resources
+GCP_PROJECT_ID  = 'strava-d199d'   # GCP project id of the GCP resources
 BQ_DATASET      = 'strava'          # your BigQuery Dataset used to store strava data 
 BQ_TABLE        = 'activities'      # Big query table used to store strava data 
 
